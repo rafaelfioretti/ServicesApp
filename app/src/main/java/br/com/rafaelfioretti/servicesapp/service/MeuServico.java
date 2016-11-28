@@ -21,13 +21,13 @@ public class MeuServico extends Service {
     public int onStartCommand (Intent intent, int flags, int startid){
         Log.i("Meu serviço", "Serviço iniciando...");
         return START_STICKY;
-
+s
 
     }
 
     @Override
     public void onCreate() {
-        Log.i("ServicoMessage", "***-Serviço Iniciado...");
+        Log.i("ServicoMessage", "***-Serviço Iniciado... ***");
     }
 
     @Override
