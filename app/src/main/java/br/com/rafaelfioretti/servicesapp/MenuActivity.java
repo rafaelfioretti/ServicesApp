@@ -24,4 +24,10 @@ public class MenuActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+
+    public void iniciaAtividade4(View v){
+        Intent i = new Intent(this, BoundActivity.class);
+        startActivity(i);
+    }
+
 }

@@ -22,11 +22,11 @@
             android:process=":remote" />
 
         <receiver android:name=".receiver.AlarmReceiver" />
+        <service android:name=".BoundService" />
 
         <activity android:name=".MainActivity" />
-
         <activity android:name=".Atividade2Activity" />
-
+        <activity android:name=".BoundActivity"></activity>
     </application>
 
 </manifest>

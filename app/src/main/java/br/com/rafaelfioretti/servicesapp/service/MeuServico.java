@@ -19,9 +19,8 @@ public class MeuServico extends Service {
 
     @Override
     public int onStartCommand (Intent intent, int flags, int startid){
-        Log.i("Meu serviço", "Serviço iniciando...");
+        Log.i("Meu serviço", "Serviço iniciando....");
         return START_STICKY;
-s
 
     }
 
